@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tracking Status Peminjaman</title>
+<link rel="stylesheet" href="tracking.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <img src="Assests/Images/logo.png" alt="Logo MedLoan" class="main-logo">
+    <div class="brand-text">
+    </div>
+  </div>
+  <div class="header-right">
+    <img src="Assests/Images/filter.png" alt="Filter" class="icon-small">
+    <img src="Assests/Images/user.png" alt="Akun" class="icon-small">
+  </div>
+</div>
+
+<div class="wrapper">
+</div>
+
+<div class="sidebar">
+  <ul>
+    <li onclick="window.location.href='home.html'">Home</li>
+    <li onclick="window.location.href='formpeminjaman.html'">Peminjaman</li>
+    <li onclick="window.location.href='tracking_peminjaman.html'">Tracking</li>
+    <li onclick="window.location.href='index.html'">Bookmark</li>
+    <li onclick="window.location.href='RiwayatPeminjaman.html'">Riwayat Peminjaman</li>
+    <li onclick="window.location.href='Ulasan.html'">Ulasan & Rating</li
+  </ul>
+</div>
+
+<div class="main-content">
+    
+  <!-- Tracking -->
+  <section id="tracking">
+    <h1>TRACKING STATUS PEMINJAMAN</h1>
+    <div class="tracking-steps">
+      <div class="step-container" onclick="showSection('permintaan')">
+        <div class="step active">1</div>
+        <span>Permintaan</span>
+      </div>
+      <div class="step-container" onclick="showSection('persetujuan')">
+        <div class="step">2</div>
+        <span>Persetujuan</span>
+      </div>
+      <div class="step-container" onclick="showSection('pengambilan')">
+        <div class="step">3</div>
+        <span>Pengambilan</span>
+      </div>
+      <div class="step-container" onclick="showSection('penggunaan')">
+        <div class="step">4</div>
+        <span>Penggunaan</span>
+      </div>
+      <div class="step-container" onclick="showSection('pengembalian')">
+        <div class="step">5</div>
+        <span>Pengembalian</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Permintaan -->
+  <section id="permintaan" class="hidden">
+    <h1>PERMINTAAN PEMINJAMAN ALAT</h1>
+    <div class="form-container">
+      <label>Nama Alat</label>
+      <input type="text">
+      <label>Tanggal Peminjaman</label>
+      <input type="date">
+      <label>Alasan Peminjaman</label>
+      <textarea></textarea>
+      <div class="btn-container">
+        <button class="btn-ajukan">Ajukan Permintaan</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Persetujuan -->
+  <section id="persetujuan" class="hidden">
+    <h1>PERSETUJUAN PEMINJAMAN</h1>
+    <div class="form-container">
+      <label>Nama Alat</label>
+      <input type="text">
+      <label>Tanggal Persetujuan</label>
+      <input type="date">
+      <div class="btn-container">
+        <button class="btn-setuju">Setujui</button>
+        <button class="btn-tolak">Tolak</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pengambilan -->
+  <section id="pengambilan" class="hidden">
+    <h1>PENGAMBILAN ALAT</h1>
+    <div class="form-container">
+      <label>Nama Alat</label>
+      <input type="text">
+      <label>Lokasi Pengambilan</label>
+      <input type="text">
+      <label>Tanggal Pengambilan</label>
+      <input type="date">
+      <div class="btn-container">
+        <button class="btn-konfirmasi">Konfirmasi Pengambilan</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Penggunaan -->
+  <section id="penggunaan" class="hidden">
+    <h1>PENGGUNAAN</h1>
+    <div class="form-container">
+      <label>Nama Alat</label>
+      <input type="text">
+      <label>Tanggal Pinjam</label>
+      <input type="date">
+      <label>Status</label>
+      <select>
+        <option>Belum digunakan</option>
+        <option>Digunakan</option>
+      </select>
+      <div class="btn-container">
+        <button>Laporan Masalah</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pengembalian -->
+  <section id="pengembalian" class="hidden">
+    <h1>PENGEMBALIAN</h1>
+    <div class="form-container">
+      <label>Nama Alat</label>
+      <input type="text">
+      <label>Tanggal Pengembalian</label>
+      <input type="date">
+      <label>Status Pengembalian</label>
+      <select>
+        <option>Belum dikembalikan</option>
+        <option>Sudah dikembalikan</option>
+      </select>
+      <div class="btn-container">
+        <button class="btn-konfirmasi">Konfirmasi Pengembalian</button>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  function showSection(sectionId) {
+    document.querySelectorAll('section').forEach(sec => {
+      sec.classList.add('hidden');
+    });
+    document.getElementById(sectionId).classList.remove('hidden');
+  }
+</script>
+
+</body>
+</html>

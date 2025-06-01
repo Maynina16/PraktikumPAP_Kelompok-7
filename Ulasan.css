@@ -1,0 +1,605 @@
+.FITUR-riwayat {
+  background-color: #efefda;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.FITUR-riwayat .div {
+  background-color: var(--colors-blue-dianne-800);
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.FITUR-riwayat .overlap {
+  position: absolute;
+  width: 947px;
+  height: 227px;
+  top: 29px;
+  left: 405px;
+}
+
+.FITUR-riwayat .overlap-group {
+  position: absolute;
+  width: 947px;
+  height: 227px;
+  top: 0;
+  left: 0;
+}
+
+.FITUR-riwayat .rectangle {
+  position: absolute;
+  width: 940px;
+  height: 131px;
+  top: 96px;
+  left: 7px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.FITUR-riwayat .text-wrapper {
+  position: absolute;
+  width: 197px;
+  top: 138px;
+  left: 138px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #821d30;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .p {
+  top: 175px;
+  left: 157px;
+  position: absolute;
+  width: 197px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #1d434e;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .unsplash-rkifybdeedg {
+  position: absolute;
+  width: 114px;
+  height: 89px;
+  top: 118px;
+  left: 43px;
+  object-fit: cover;
+}
+
+.FITUR-riwayat .rectangle-2 {
+  position: absolute;
+  width: 151px;
+  height: 34px;
+  top: 144px;
+  left: 691px;
+  background-color: #821d30;
+  border-radius: 45px;
+}
+
+.FITUR-riwayat .rectangle-3 {
+  position: absolute;
+  width: 81px;
+  height: 28px;
+  top: 186px;
+  left: 838px;
+  background-color: #afafaf;
+  border-radius: 45px;
+}
+
+.FITUR-riwayat .text-wrapper-2 {
+  position: absolute;
+  width: 141px;
+  top: 152px;
+  left: 698px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #efefda;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .text-wrapper-3 {
+  position: absolute;
+  width: 123px;
+  top: 188px;
+  left: 817px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.FITUR-riwayat .rectangle-4 {
+  position: absolute;
+  width: 875px;
+  height: 64px;
+  top: 0;
+  left: 0;
+  background-color: #821d30;
+  border-radius: 45px;
+}
+
+.FITUR-riwayat .text-wrapper-4 {
+  position: absolute;
+  width: 671px;
+  top: 17px;
+  left: 102px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #efefda;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .tune {
+  position: absolute;
+  width: 42px;
+  height: 44px;
+  top: 4px;
+  left: 893px;
+}
+
+.FITUR-riwayat .overlap-2 {
+  position: absolute;
+  width: 940px;
+  height: 131px;
+  top: 276px;
+  left: 412px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.FITUR-riwayat .overlap-3 {
+  position: absolute;
+  width: 311px;
+  height: 89px;
+  top: 21px;
+  left: 36px;
+}
+
+.FITUR-riwayat .overlap-4 {
+  position: absolute;
+  width: 284px;
+  height: 89px;
+  top: 0;
+  left: 0;
+}
+
+.FITUR-riwayat .text-wrapper-5 {
+  position: absolute;
+  width: 197px;
+  top: 11px;
+  left: 87px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #821d30;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .img {
+  position: absolute;
+  width: 114px;
+  height: 89px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.FITUR-riwayat .text-wrapper-6 {
+  top: 49px;
+  left: 114px;
+  position: absolute;
+  width: 197px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #1d434e;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .overlap-5 {
+  position: absolute;
+  width: 151px;
+  height: 35px;
+  top: 50px;
+  left: 686px;
+}
+
+.FITUR-riwayat .rectangle-5 {
+  position: absolute;
+  width: 151px;
+  height: 34px;
+  top: 0;
+  left: 0;
+  background-color: #1d434e;
+  border-radius: 45px;
+}
+
+.FITUR-riwayat .text-wrapper-7 {
+  position: absolute;
+  width: 141px;
+  top: 5px;
+  left: 8px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #efefda;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .overlap-6 {
+  position: absolute;
+  width: 940px;
+  height: 131px;
+  top: 428px;
+  left: 412px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.FITUR-riwayat .overlap-7 {
+  position: absolute;
+  width: 300px;
+  height: 89px;
+  top: 22px;
+  left: 36px;
+}
+
+.FITUR-riwayat .text-wrapper-8 {
+  position: absolute;
+  width: 197px;
+  top: 17px;
+  left: 87px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #821d30;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .text-wrapper-9 {
+  top: 57px;
+  left: 103px;
+  position: absolute;
+  width: 197px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #1d434e;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .overlap-8 {
+  position: absolute;
+  width: 151px;
+  height: 38px;
+  top: 52px;
+  left: 684px;
+}
+
+.FITUR-riwayat .text-wrapper-10 {
+  top: 8px;
+  left: 2px;
+  position: absolute;
+  width: 141px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #efefda;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .overlap-9 {
+  position: absolute;
+  width: 940px;
+  height: 131px;
+  top: 580px;
+  left: 412px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.FITUR-riwayat .overlap-10 {
+  position: absolute;
+  width: 311px;
+  height: 90px;
+  top: 21px;
+  left: 36px;
+}
+
+.FITUR-riwayat .overlap-11 {
+  position: absolute;
+  width: 267px;
+  height: 89px;
+  top: 0;
+  left: 0;
+}
+
+.FITUR-riwayat .text-wrapper-11 {
+  position: absolute;
+  width: 197px;
+  top: 26px;
+  left: 70px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #821d30;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .text-wrapper-12 {
+  position: absolute;
+  width: 197px;
+  top: 61px;
+  left: 114px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #1d434e;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .div-wrapper {
+  position: absolute;
+  width: 151px;
+  height: 34px;
+  top: 48px;
+  left: 681px;
+  background-color: #821d30;
+  border-radius: 45px;
+}
+
+.FITUR-riwayat .text-wrapper-13 {
+  top: 4px;
+  left: 10px;
+  position: absolute;
+  width: 141px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #efefda;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .overlap-12 {
+  position: absolute;
+  width: 123px;
+  height: 28px;
+  top: 90px;
+  left: 806px;
+}
+
+.FITUR-riwayat .rectangle-6 {
+  position: absolute;
+  width: 81px;
+  height: 28px;
+  top: 0;
+  left: 21px;
+  background-color: #afafaf;
+  border-radius: 45px;
+}
+
+.FITUR-riwayat .text-wrapper-14 {
+  top: 4px;
+  position: absolute;
+  width: 123px;
+  left: 0;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.FITUR-riwayat .overlap-group-2 {
+  position: absolute;
+  width: 940px;
+  height: 131px;
+  top: 731px;
+  left: 412px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.FITUR-riwayat .overlap-13 {
+  position: absolute;
+  width: 311px;
+  height: 90px;
+  top: 20px;
+  left: 36px;
+}
+
+.FITUR-riwayat .overlap-14 {
+  position: absolute;
+  width: 296px;
+  height: 89px;
+  top: 0;
+  left: 0;
+}
+
+.FITUR-riwayat .text-wrapper-15 {
+  position: absolute;
+  width: 197px;
+  top: 26px;
+  left: 99px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #821d30;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .overlap-15 {
+  position: absolute;
+  width: 151px;
+  height: 35px;
+  top: 55px;
+  left: 684px;
+}
+
+.FITUR-riwayat .text-wrapper-16 {
+  top: 5px;
+  left: 7px;
+  position: absolute;
+  width: 141px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #efefda;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .overlap-16 {
+  position: absolute;
+  width: 940px;
+  height: 131px;
+  top: 881px;
+  left: 412px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.FITUR-riwayat .text-wrapper-17 {
+  position: absolute;
+  width: 262px;
+  top: 42px;
+  left: 150px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #821d30;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .text-wrapper-18 {
+  top: 82px;
+  left: 150px;
+  position: absolute;
+  width: 197px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #1d434e;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .overlap-17 {
+  position: absolute;
+  width: 151px;
+  height: 37px;
+  top: 51px;
+  left: 684px;
+}
+
+.FITUR-riwayat .rectangle-7 {
+  position: absolute;
+  width: 151px;
+  height: 34px;
+  top: 0;
+  left: 0;
+  background-color: #821d30;
+  border-radius: 45px;
+}
+
+.FITUR-riwayat .text-wrapper-19 {
+  top: 7px;
+  left: 7px;
+  position: absolute;
+  width: 141px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #efefda;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-riwayat .overlap-18 {
+  position: absolute;
+  width: 123px;
+  height: 28px;
+  top: 89px;
+  left: 811px;
+}
+
+.FITUR-riwayat .text-wrapper-20 {
+  top: 3px;
+  position: absolute;
+  width: 123px;
+  left: 0;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.FITUR-riwayat .unsplash {
+  position: absolute;
+  width: 114px;
+  height: 89px;
+  top: 23px;
+  left: 36px;
+  object-fit: cover;
+}
+
+.FITUR-riwayat .screenshot {
+  position: absolute;
+  width: 52px;
+  height: 51px;
+  top: 29px;
+  left: 1354px;
+  object-fit: cover;
+}

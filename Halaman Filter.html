@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Halaman Filter</title>
+    <style>
+        .FITUR-filter {
+            background-color: #efefda;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .FITUR-filter .div {
+            background-color: #efefda;
+            overflow: hidden;
+            width: 1280px;
+            height: 832px;
+            position: relative;
+        }
+
+        .FITUR-filter .overlap {
+            position: absolute;
+            width: 596px;
+            height: 97px;
+            top: 176px;
+            left: 379px;
+            background-color: #821d30;
+            border-radius: 45px;
+        }
+
+        .FITUR-filter .text-wrapper {
+            position: absolute;
+            top: 37px;
+            left: 221px;
+            font-family: "Roboto-Bold", Helvetica;
+            font-weight: 700;
+            color: #efefda;
+            font-size: 50px;
+            text-align: center;
+            letter-spacing: 0.20px;
+            line-height: 22px;
+            white-space: nowrap;
+        }
+
+        .FITUR-filter .text-wrapper-2,
+        .FITUR-filter .text-wrapper-3,
+        .FITUR-filter .text-wrapper-4 {
+            position: absolute;
+            left: 197px;
+            font-family: "Roboto-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            font-size: 32px;
+            text-align: center;
+            letter-spacing: 0.20px;
+            line-height: 22px;
+            white-space: nowrap;
+        }
+
+        .FITUR-filter .text-wrapper-2 { top: 392px; }
+        .FITUR-filter .text-wrapper-3 { top: 499px; }
+        .FITUR-filter .text-wrapper-4 { top: 620px; }
+
+        .FITUR-filter .overlap-group {
+            position: absolute;
+            width: 407px;
+            height: 518px;
+            top: 600px;
+            left: 771px;
+
+        }
+
+        .FITUR-filter .component {
+            height: 239px;
+            top: 279px;
+            left: 3px;
+            position: absolute;
+            width: 362px;
+        }
+
+        .FITUR-filter .frame {
+            height: 20px;
+            align-items: flex-end;
+            gap: 119px;
+            padding: 21px 28px 19px 12px;
+            display: flex;
+            width: 362px;
+            position: relative;
+            background-color: #d9d9d9;
+            border-radius: 10px;
+            border: 1px solid;
+            border-color: #000000;
+        }
+
+        .FITUR-filter .text-wrapper-5 {
+            width: 192px;
+            height: 20px;
+            white-space: nowrap;
+            position: relative;
+            font-family: "Roboto-Light", Helvetica;
+            font-weight: 300;
+            color: #000000;
+            font-size: 36px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: 22px;
+        }
+
+        .FITUR-filter .polygon {
+            position: relative;
+            width: 20.89px;
+            height: 21.34px;
+            margin-bottom: -1.12px;
+            margin-right: -9.45px;
+        }
+
+        .FITUR-filter .frame-wrapper {
+            height: 80px;
+            top: 483px;
+            left: 770px;
+            position: absolute;
+            width: 362px;
+            
+            
+        }
+
+        .FITUR-filter .frame-2 {
+            height: 71px;
+            align-items: center;
+            gap: 35px;
+            display: flex;
+            width: 409px;
+            position: relative;
+            background-color: #d9d9d9;
+            border-radius: 10px;
+            border: 1px solid;
+            border-color: #000000;
+        }
+
+        .FITUR-filter .pilih-ketersediaan {
+            width: 294px;
+            font-family: "Roboto-Light", Helvetica;
+            font-weight: 300;
+            color: #000000;
+            font-size: 36px;
+            letter-spacing: 0;
+            line-height: 22px;
+            text-align: left;  
+            margin-left: 40px;          
+}
+
+
+        .FITUR-filter .img {
+            position: relative;
+            width: 20.89px;
+            height: 21.34px;
+        }
+
+        .FITUR-filter .selector {
+            position: absolute;
+            width: 407px;
+            height: 399px;
+            top: 370px;
+            left: 770px;
+            
+        }
+
+        .FITUR-filter .frame-3 {
+            height: 71px;
+            align-items: center;
+            gap: 97px;
+            padding: 6px 12px;
+            display: flex;
+            width: 500px;
+            position: relative;
+            background-color: #d9d9d9;
+            border-radius: 10px;
+            border: 1px solid;
+            border-color: #000000;
+            
+        }
+
+        .FITUR-filter .text-wrapper-6 {
+            width: fit-content;
+            white-space: nowrap;
+            position: relative;
+            font-family: "Roboto-Light", Helvetica;
+            font-weight: 300;
+            color: #000000;
+            font-size: 36px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: 22px;
+        }
+
+        .FITUR-filter .logo-website {
+            position: absolute;
+            width: 313px;
+            height: 230px;
+            top: 0;
+            left: 100px;
+            object-fit: cover;
+        }
+
+        .FITUR-filter .group {
+            position: absolute;
+            width: 434px;
+            height: 50px;
+            top: 49px;
+            left: 414px;
+        }
+
+        .FITUR-filter .screenshot {
+            position: absolute;
+            width: 52px;
+            height: 51px;
+            top: 49px;
+            left: 1500px;
+            object-fit: cover;
+        }
+
+        .FITUR-filter .tune {
+            position: absolute;
+            width: 42px;
+            height: 44px;
+            top: 49px;
+            left: 1450px;
+        }
+        .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #d9d9d9;
+  min-width: 362px;
+  top: 75px;
+  left: 0;
+  border: 1px solid #000;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.dropdown-content div {
+  padding: 16px;
+  font-size: 28px;
+  font-family: "Roboto-Light", Helvetica;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.dropdown-content div:last-child {
+  border-bottom: none;
+}
+
+.dropdown-content div:hover {
+  background-color: #cfcfcf;
+}
+/* Dropdown untuk Ketersediaan */
+#dropdown-ketersediaan {
+  display: none;
+  position: absolute;
+  background-color: #d9d9d9;
+  min-width: 362px;
+  top: 75px;
+  left: 0;
+  border: 1px solid #000;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+#dropdown-ketersediaan div {
+  padding: 16px;
+  font-size: 28px;
+  font-family: "Roboto-Light", Helvetica;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#dropdown-ketersediaan div:last-child {
+  border-bottom: none;
+}
+
+#dropdown-ketersediaan div:hover {
+  background-color: #cfcfcf;
+}
+</style>
+</head>
+<script>
+ 
+  function toggleDropdown() {
+    const menu = document.getElementById("dropdown-menu");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  }
+
+  
+  function toggleKetersediaan() {
+    const menu = document.getElementById("dropdown-ketersediaan");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  }
+
+   document.addEventListener("DOMContentLoaded", () => {
+    const ketersediaanItems = document.querySelectorAll("#dropdown-ketersediaan div");
+
+    ketersediaanItems.forEach(item => {
+      item.addEventListener("click", () => {
+        const link = item.getAttribute("data-link");
+        if (link) {
+          window.location.href = link;
+        }
+      });
+    });
+  });
+
+
+  
+  function toggleKondisi() {
+    const menu = document.getElementById("dropdown-kondisi");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    const kondisiItems = document.querySelectorAll("#dropdown-kondisi div");
+
+    kondisiItems.forEach(item => {
+      item.addEventListener("click", () => {
+        const link = item.getAttribute("data-link");
+        if (link) {
+          window.location.href = link;
+        }
+      });
+    });
+  });
+
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".dropdown-content div").forEach(item => {
+      item.addEventListener("click", () => {
+        const link = item.getAttribute("data-link");
+        if (link) {
+          window.location.href = link;
+        }
+      });
+    });
+  });
+
+  
+  window.onclick = function(event) {
+    if (!event.target.closest('.dropdown')) {
+      const dropdowns = document.querySelectorAll('.dropdown-content');
+      dropdowns.forEach(d => d.style.display = "none");
+    }
+  };
+</script>
+
+<body>
+    <div class="FITUR-filter">
+        <div class="div">
+            <div class="overlap">
+                <div class="text-wrapper">FILTER</div>
+            </div>
+            <div class="text-wrapper-2">KATEGORI</div>
+            <div class="text-wrapper-3">KETERSEDIAAN</div>
+            <div class="text-wrapper-4">KONDISI</div>
+
+            <div class="overlap-group">
+                <div class="dropdown">
+                    <button onclick="toggleKondisi()" class="frame-3">
+                        <div class="text-wrapper-5">Pilih Kondisi</div>
+                        <img class="polygon" src="Assets/Polygon 3.svg" />
+                    </button>
+                    <div id="dropdown-kondisi" class="dropdown-content">
+                        <div data-link="Baik.html">Baik</div>
+                        <div data-link="Rusak.html">Rusak</div>
+                    </div>
+                </div>
+            </div>
+                <div class="frame-wrapper">
+                    <div class="dropdown">
+                        <button onclick="toggleKetersediaan()" class="frame-3">
+                            <div class="pilih-ketersediaan">Pilih Ketersediaan</div>
+                            <img class="img" src="Assets/Polygon 2.svg">
+                        </button>
+                        <div id="dropdown-ketersediaan" class="dropdown-content">
+                            <div data-link="Tersedia.html">Tersedia</div>
+                            <div data-link="BelumTersedia.html">Belum Tersedia</div>
+                        </div>
+                    </div>
+                </div>
+
+                    
+                <div class="selector">
+                    <div class="dropdown">
+                          <button onclick="toggleDropdown()" class="frame-3">
+                            <div class="text-wrapper-6">Pilih Kategori</div>
+                            <img class="img" src="Assets/Polygon 1.svg" />
+                          </button>
+                          <div id = "dropdown-menu" class="dropdown-content">
+                            <div data-link="AlatPernapasan.html">Alat Pernapasan</div>
+                            <div data-link="AlatDiagnostik.html">Alat Diagnostik</div>
+                            <div data-link="AlatMobilitas.html">Alat Mobilitas</div>
+                            <div data-link="Tekanan.html">Tekanan Darah & Denyut</div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <img class="logo-website" src="Assets/logo website 2.png" />
+            <img class="screenshot" src="Assets/Screenshot 2025-05-31 193752.png" />
+            <img class="tune" src="Assets/Tune.png" />
+        </div>
+    </div>
+</body>
+</html>

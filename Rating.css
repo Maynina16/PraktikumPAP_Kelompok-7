@@ -1,0 +1,1390 @@
+.FITUR-ulasan-dan {
+  background-color: #efefda;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.FITUR-ulasan-dan .div {
+  background-color: var(--colors-blue-dianne-800);
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.FITUR-ulasan-dan .overlap {
+  height: 1024px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1299px;
+}
+
+.FITUR-ulasan-dan .overlap-group {
+  height: 1024px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 657px;
+}
+
+.FITUR-ulasan-dan .overlap-2 {
+  height: 1024px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 380px;
+}
+
+.FITUR-ulasan-dan .rectangle {
+  height: 921px;
+  left: 0;
+  position: absolute;
+  top: 103px;
+  width: 346px;
+}
+
+.FITUR-ulasan-dan .text-wrapper {
+  color: #efefda;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 40px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 490px;
+  width: 266px;
+}
+
+.FITUR-ulasan-dan .logo-website {
+  height: 211px;
+  left: 16px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 313px;
+}
+
+.FITUR-ulasan-dan .rectangle-2 {
+  background-color: #efefda;
+  border-radius: 30px;
+  height: 70px;
+  left: 40px;
+  position: absolute;
+  top: 568px;
+  width: 340px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-2 {
+  color: #efefda;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 63px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 155px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-3 {
+  color: #efefda;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 63px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 327px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-4 {
+  color: #efefda;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 40px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 404px;
+  width: 266px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-5 {
+  color: #efefda;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 63px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 246px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .ULASAN-RATING {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 75px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 592px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .div-wrapper {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 79px;
+  left: 363px;
+  position: absolute;
+  top: 271px;
+  width: 294px;
+}
+
+.FITUR-ulasan-dan .p {
+  color: #1d434e;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  width: 292px;
+}
+
+.FITUR-ulasan-dan .overlap-3 {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 79px;
+  left: 363px;
+  position: absolute;
+  top: 727px;
+  width: 294px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-6 {
+  color: #1d434e;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 1px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  width: 292px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-7 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 400px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 228px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-8 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 400px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 689px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .overlap-4 {
+  height: 110px;
+  left: 405px;
+  position: absolute;
+  top: 365px;
+  width: 296px;
+}
+
+.FITUR-ulasan-dan .overlap-5 {
+  height: 110px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 296px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-9 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  left: 77px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 73px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-10 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 109px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  white-space: nowrap;
+  width: 156px;
+}
+
+.FITUR-ulasan-dan .unsplash {
+  height: 89px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 114px;
+}
+
+.FITUR-ulasan-dan .bintang {
+  height: 16px;
+  left: 142px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .img {
+  height: 16px;
+  left: 157px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .overlap-6 {
+  background-image: url(./bintang-2-6.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 16px;
+  left: 172px;
+  position: absolute;
+  top: 53px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-2 {
+  height: 16px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-3 {
+  height: 16px;
+  left: 187px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-4 {
+  height: 16px;
+  left: 202px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .overlap-7 {
+  height: 104px;
+  left: 403px;
+  position: absolute;
+  top: 820px;
+  width: 298px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-11 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  left: 79px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 67px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-12 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 111px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 156px;
+}
+
+.FITUR-ulasan-dan .bintang-5 {
+  height: 16px;
+  left: 144px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-6 {
+  height: 16px;
+  left: 159px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-7 {
+  height: 16px;
+  left: 174px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-8 {
+  height: 16px;
+  left: 189px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-9 {
+  height: 16px;
+  left: 204px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .img-2 {
+  height: 89px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 114px;
+}
+
+.FITUR-ulasan-dan .bintang-10 {
+  height: 31px;
+  left: 442px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-11 {
+  height: 31px;
+  left: 442px;
+  object-fit: cover;
+  position: absolute;
+  top: 654px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-12 {
+  height: 31px;
+  left: 472px;
+  object-fit: cover;
+  position: absolute;
+  top: 654px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-13 {
+  height: 31px;
+  left: 472px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-14 {
+  height: 31px;
+  left: 502px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-15 {
+  height: 31px;
+  left: 532px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-16 {
+  height: 33px;
+  left: 562px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-17 {
+  height: 33px;
+  left: 502px;
+  object-fit: cover;
+  position: absolute;
+  top: 653px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-18 {
+  height: 33px;
+  left: 532px;
+  object-fit: cover;
+  position: absolute;
+  top: 654px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-19 {
+  height: 33px;
+  left: 562px;
+  object-fit: cover;
+  position: absolute;
+  top: 654px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .overlap-8 {
+  height: 34px;
+  left: 405px;
+  position: absolute;
+  top: 476px;
+  width: 235px;
+}
+
+.FITUR-ulasan-dan .rectangle-3 {
+  background-color: #821d30;
+  border-radius: 15px;
+  height: 29px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 235px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-13 {
+  color: #efefda;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 13px;
+  font-weight: 700;
+  left: 52px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  width: 141px;
+}
+
+.FITUR-ulasan-dan .overlap-9 {
+  height: 34px;
+  left: 403px;
+  position: absolute;
+  top: 930px;
+  width: 235px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-14 {
+  color: #efefda;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 13px;
+  font-weight: 700;
+  left: 53px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  width: 141px;
+}
+
+.FITUR-ulasan-dan .overlap-10 {
+  height: 114px;
+  left: 406px;
+  position: absolute;
+  top: 47px;
+  width: 893px;
+}
+
+.FITUR-ulasan-dan .rectangle-4 {
+  background-color: #821d30;
+  border-radius: 45px;
+  height: 66px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 893px;
+}
+
+.FITUR-ulasan-dan .ULASAN-RATING-2 {
+  color: #efefda;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 130px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  width: 671px;
+}
+
+.FITUR-ulasan-dan .overlap-11 {
+  height: 79px;
+  left: 733px;
+  position: absolute;
+  top: 727px;
+  width: 297px;
+}
+
+.FITUR-ulasan-dan .rectangle-5 {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 294px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-15 {
+  color: #1d434e;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 5px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  width: 292px;
+}
+
+.FITUR-ulasan-dan .overlap-12 {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 79px;
+  left: 1112px;
+  position: absolute;
+  top: 728px;
+  width: 294px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-16 {
+  color: #1d434e;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  width: 292px;
+}
+
+.FITUR-ulasan-dan .overlap-13 {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 79px;
+  left: 732px;
+  position: absolute;
+  top: 271px;
+  width: 294px;
+}
+
+.FITUR-ulasan-dan .overlap-14 {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 79px;
+  left: 1104px;
+  position: absolute;
+  top: 271px;
+  width: 294px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-17 {
+  color: #1d434e;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  width: 292px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-18 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 773px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 228px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-19 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 1156px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 228px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-20 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 773px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 690px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-21 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 1154px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 690px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .overlap-15 {
+  height: 104px;
+  left: 758px;
+  position: absolute;
+  top: 820px;
+  width: 306px;
+}
+
+.FITUR-ulasan-dan .overlap-16 {
+  height: 101px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 306px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-22 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  left: 87px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .bintang-20 {
+  height: 16px;
+  left: 155px;
+  object-fit: cover;
+  position: absolute;
+  top: 49px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-21 {
+  height: 16px;
+  left: 170px;
+  object-fit: cover;
+  position: absolute;
+  top: 49px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-22 {
+  height: 16px;
+  left: 185px;
+  object-fit: cover;
+  position: absolute;
+  top: 49px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-23 {
+  height: 16px;
+  left: 200px;
+  object-fit: cover;
+  position: absolute;
+  top: 49px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-24 {
+  height: 16px;
+  left: 215px;
+  object-fit: cover;
+  position: absolute;
+  top: 49px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-23 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 114px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 156px;
+}
+
+.FITUR-ulasan-dan .overlap-group-2 {
+  height: 104px;
+  left: 1134px;
+  position: absolute;
+  top: 820px;
+  width: 306px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-24 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  left: 87px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 67px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-25 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 108px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 156px;
+}
+
+.FITUR-ulasan-dan .bintang-25 {
+  height: 16px;
+  left: 154px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-26 {
+  height: 16px;
+  left: 169px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-27 {
+  height: 16px;
+  left: 184px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-28 {
+  height: 16px;
+  left: 199px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-29 {
+  height: 16px;
+  left: 214px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .unsplash-rkifybdeedg {
+  height: 89px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 114px;
+}
+
+.FITUR-ulasan-dan .overlap-17 {
+  height: 110px;
+  left: 758px;
+  position: absolute;
+  top: 365px;
+  width: 299px;
+}
+
+.FITUR-ulasan-dan .overlap-18 {
+  height: 110px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 299px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-26 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  left: 72px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 73px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-27 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 94px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  white-space: nowrap;
+  width: 205px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-28 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 94px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  width: 205px;
+}
+
+.FITUR-ulasan-dan .bintang-30 {
+  height: 16px;
+  left: 140px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-31 {
+  height: 16px;
+  left: 155px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-32 {
+  height: 16px;
+  left: 170px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-33 {
+  height: 16px;
+  left: 185px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-34 {
+  height: 16px;
+  left: 200px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .overlap-19 {
+  height: 111px;
+  left: 1134px;
+  position: absolute;
+  top: 364px;
+  width: 301px;
+}
+
+.FITUR-ulasan-dan .overlap-20 {
+  height: 111px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 301px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-29 {
+  color: #1d434e;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  left: 82px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 74px;
+  width: 219px;
+}
+
+.FITUR-ulasan-dan .bintang-35 {
+  height: 16px;
+  left: 144px;
+  object-fit: cover;
+  position: absolute;
+  top: 54px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-36 {
+  height: 16px;
+  left: 159px;
+  object-fit: cover;
+  position: absolute;
+  top: 54px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-37 {
+  height: 16px;
+  left: 174px;
+  object-fit: cover;
+  position: absolute;
+  top: 54px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-38 {
+  height: 16px;
+  left: 189px;
+  object-fit: cover;
+  position: absolute;
+  top: 54px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-39 {
+  height: 16px;
+  left: 204px;
+  object-fit: cover;
+  position: absolute;
+  top: 54px;
+  width: 15px;
+}
+
+.FITUR-ulasan-dan .bintang-wrapper {
+  background-image: url(./bintang-2-31.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 31px;
+  left: 808px;
+  position: absolute;
+  top: 652px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-40 {
+  height: 31px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-41 {
+  height: 31px;
+  left: 838px;
+  object-fit: cover;
+  position: absolute;
+  top: 653px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-42 {
+  height: 31px;
+  left: 868px;
+  object-fit: cover;
+  position: absolute;
+  top: 653px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-43 {
+  height: 31px;
+  left: 898px;
+  object-fit: cover;
+  position: absolute;
+  top: 654px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-44 {
+  height: 31px;
+  left: 928px;
+  object-fit: cover;
+  position: absolute;
+  top: 654px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-45 {
+  height: 31px;
+  left: 1191px;
+  object-fit: cover;
+  position: absolute;
+  top: 654px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-46 {
+  height: 31px;
+  left: 1221px;
+  object-fit: cover;
+  position: absolute;
+  top: 655px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-47 {
+  height: 31px;
+  left: 1251px;
+  object-fit: cover;
+  position: absolute;
+  top: 655px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-48 {
+  height: 31px;
+  left: 808px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-49 {
+  height: 31px;
+  left: 1191px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-50 {
+  height: 31px;
+  left: 1221px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-51 {
+  height: 31px;
+  left: 1251px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-52 {
+  height: 31px;
+  left: 1281px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-53 {
+  height: 31px;
+  left: 1311px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-54 {
+  height: 31px;
+  left: 838px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-55 {
+  height: 31px;
+  left: 868px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-56 {
+  height: 33px;
+  left: 1281px;
+  object-fit: cover;
+  position: absolute;
+  top: 654px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-57 {
+  height: 33px;
+  left: 1311px;
+  object-fit: cover;
+  position: absolute;
+  top: 655px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-58 {
+  height: 33px;
+  left: 898px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .bintang-59 {
+  height: 33px;
+  left: 928px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 30px;
+}
+
+.FITUR-ulasan-dan .overlap-21 {
+  height: 33px;
+  left: 758px;
+  position: absolute;
+  top: 930px;
+  width: 235px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-30 {
+  color: #efefda;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 13px;
+  font-weight: 700;
+  left: 57px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 141px;
+}
+
+.FITUR-ulasan-dan .overlap-22 {
+  height: 33px;
+  left: 1134px;
+  position: absolute;
+  top: 931px;
+  width: 235px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-31 {
+  color: #efefda;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 13px;
+  font-weight: 700;
+  left: 59px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 141px;
+}
+
+.FITUR-ulasan-dan .overlap-23 {
+  height: 34px;
+  left: 758px;
+  position: absolute;
+  top: 476px;
+  width: 235px;
+}
+
+.FITUR-ulasan-dan .overlap-24 {
+  height: 34px;
+  left: 1129px;
+  position: absolute;
+  top: 476px;
+  width: 235px;
+}
+
+.FITUR-ulasan-dan .text-wrapper-32 {
+  color: #efefda;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 13px;
+  font-weight: 700;
+  left: 56px;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  width: 141px;
+}
+
+.FITUR-ulasan-dan .screenshot {
+  height: 51px;
+  left: 1372px;
+  object-fit: cover;
+  position: absolute;
+  top: 29px;
+  width: 52px;
+}
+
+.FITUR-ulasan-dan .tune {
+  height: 44px;
+  left: 1316px;
+  position: absolute;
+  top: 33px;
+  width: 42px;
+}

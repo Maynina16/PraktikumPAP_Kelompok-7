@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MedLoan - Register</title>
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    
+    
+    * {
+      box-sizing: border-box;
+    }
+    body, html {
+      margin: 0; padding: 0; height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
+    }
+   
+    
+    .register-container {
+      display: flex;
+      height: 100vh;
+      max-width: 100vw;
+      overflow: hidden;
+    }
+    
+    
+    .left-panel {
+      flex: 1;
+      background-color: #821D30;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+    .left-panel img {
+      max-width: 100%;
+      max-height: 80vh;
+      object-fit: contain;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(130, 29, 48, 0.6);
+    }
+    
+    
+    .right-panel {
+      flex: 1;
+      background-color: #fff;
+      padding: 60px 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 32px;
+      box-shadow: -8px 0 24px rgba(130, 29, 48, 0.1);
+      align-items: center;
+    }
+    
+    
+    .logo-register {
+      width: 140px;
+      margin-bottom: 24px;
+    }
+    .logo-register img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+    }
+   
+    
+
+    form {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+      background: #821D30;
+      border-radius: 32px;
+      padding: 0 18px;
+      height: 48px;
+      gap: 10px;
+      margin-bottom: 4px;
+    }
+    .input-wrapper .icon {
+      font-size: 1.2em;
+      color: #EFEFDA;
+      min-width: 22px;
+      text-align: center;
+    }
+    .input-wrapper input {
+      border: none;
+      background: transparent;
+      outline: none;
+      color: #EFEFDA;
+      font-size: 1em;
+      flex: 1;
+      padding: 12px 0;
+      font-family: inherit;
+      letter-spacing: 0.5px;
+    }
+    .input-wrapper input::placeholder {
+      color: #EFEFDA;
+      opacity: 0.85;
+    }
+    
+    
+    .btn-signin {
+      background: linear-gradient(90deg, #821D30 0%, #1D434E 100%);
+      color: #EFEFDA;
+      font-weight: 700;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 24px;
+      padding: 14px 0;
+      cursor: pointer;
+      box-shadow: 0 4px 16px rgba(29,67,78,0.3);
+      transition: background 0.3s, transform 0.2s;
+      width: 100%;
+      max-width: 400px;
+    }
+    .btn-signin:hover {
+      background: linear-gradient(90deg, #1D434E 0%, #821D30 100%);
+      transform: translateY(-3px) scale(1.05);
+    }
+    
+    
+    .social-buttons {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      margin-top: 12px;
+      max-width: 400px;
+      width: 100%;
+    }
+    .social-btn {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px 0;
+      border-radius: 24px;
+      font-weight: 600;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
+      border: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      color: #fff;
+    }
+    .social-google {
+      background: #DB4437;
+    }
+    .social-google:hover {
+      background: #b3362b;
+    }
+    .social-facebook {
+      background: #3b5998;
+    }
+    .social-facebook:hover {
+      background: #2d4373;
+    }
+    .social-btn i {
+      font-size: 1.2em;
+    }
+    /* Responsive */
+    @media (max-width: 900px) {
+      .register-container {
+        flex-direction: column;
+      }
+      .left-panel, .right-panel {
+        flex: none;
+        width: 100%;
+        height: auto;
+        padding: 32px 24px;
+        box-shadow: none;
+      }
+      .left-panel img {
+        max-height: 300px;
+      }
+      .right-panel {
+        padding: 32px 24px;
+        align-items: center;
+      }
+      .social-buttons {
+        flex-direction: column;
+      }
+      .social-btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="register-container">
+    <div class="left-panel">
+      <img src="asset/img/obat.jpg" alt="Obat PNG" />
+    </div>
+    <div class="right-panel">
+      <div class="logo-register">
+        <img src="asset/img/logo website.png" alt="MedLoan Logo" />
+      </div>
+      <form id="register-form" autocomplete="off">
+        <div class="input-wrapper">
+          <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+          <input type="email" id="email" name="email" placeholder="Masukkan email" required />
+        </div>
+        <div class="input-wrapper">
+          <span class="icon"><i class="fa-solid fa-lock"></i></span>
+          <input type="password" id="password" name="password" placeholder="Masukkan password" required />
+        </div>
+        <div class="input-wrapper">
+          <span class="icon"><i class="fa-solid fa-user"></i></span>
+          <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap" required />
+        </div>
+        <button type="submit" class="btn-signin">Sign In</button>
+      </form>
+      <div class="social-buttons">
+        <button class="social-btn social-google" onclick="alert('Continue with Google clicked!')">
+          <i class="fab fa-google"></i> Continue with Google
+        </button>
+        <button class="social-btn social-facebook" onclick="alert('Continue with Facebook clicked!')">
+          <i class="fab fa-facebook-f"></i> Continue with Facebook
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('register-form').addEventListener('submit', function(event) {
+      event.preventDefault(); 
+      window.location.href = 'peminjaman.html'; 
+    });
+  </script>
+</body>
+</html>

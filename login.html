@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MedLoan - Login</title>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #821D30;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .login-container {
+      background: #EFEFDA;
+      border-radius: 32px;
+      box-shadow: 0 6px 32px rgba(0,0,0,0.10);
+      width: 400px;
+      max-width: 90vw;
+      padding: 40px 36px 32px 36px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 28px;
+    }
+    .logo-area {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .logo-area img {
+      width: 110px;
+      height: 110px;
+      object-fit: contain;
+      margin-bottom: 6px;
+    }
+    .logo-title {
+      font-size: 1.6em;
+      font-weight: bold;
+      color: #821D30;
+      letter-spacing: 1px;
+    }
+    .logo-tagline {
+      font-size: 0.95em;
+      color: #1D434E;
+      margin-top: -4px;
+      letter-spacing: 0.5px;
+    }
+    .form-group {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+      background: #821D30;
+      border-radius: 32px;
+      padding: 0 18px;
+      height: 48px;
+      gap: 10px;
+      margin-bottom: 4px;
+    }
+    .input-wrapper .icon {
+      font-size: 1.2em;
+      color: #EFEFDA;
+      min-width: 22px;
+      text-align: center;
+    }
+    .input-wrapper input {
+      border: none;
+      background: transparent;
+      outline: none;
+      color: #EFEFDA;
+      font-size: 1em;
+      flex: 1;
+      padding: 12px 0;
+      font-family: inherit;
+      letter-spacing: 0.5px;
+    }
+    .input-wrapper input::placeholder {
+      color: #EFEFDA;
+      opacity: 0.85;
+    }
+    .button-row {
+      display: flex;
+      gap: 18px;
+      margin-top: 8px;
+      width: 100%;
+      justify-content: flex-start;
+    }
+    .btn {
+      border: none;
+      border-radius: 24px;
+      padding: 10px 36px;
+      font-size: 1em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s, transform 0.15s;
+      min-width: 120px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      letter-spacing: 0.5px;
+      text-align: center;
+    }
+    .btn-signin {
+      background: #1D434E;
+      color: #EFEFDA;
+    }
+    .btn-signin:hover {
+      background: #16353e;
+      color: #fff;
+      transform: translateY(-2px) scale(1.04);
+    }
+    .btn-signup {
+      background: #821D30;
+      color: #EFEFDA;
+    }
+    .btn-signup:hover {
+      background: #a82b45;
+      color: #fff;
+      transform: translateY(-2px) scale(1.04);
+    }
+    @media (max-width: 480px) {
+      .login-container {
+        padding: 28px 4vw 24px 4vw;
+        border-radius: 18px;
+        gap: 16px;
+        width: 98vw;
+      }
+      .button-row {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .btn {
+        width: 100%;
+        min-width: unset;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="logo-area">
+      
+      
+      <img src="asset/img/logo website.png" alt="MedLoan Logo">
+      
+      
+      <div class="logo-tagline">ALAT TERDATA, KERJA TERJAGA</div> -->
+    </div>
+    <form class="form-group" autocomplete="off">
+      <div class="input-wrapper">
+        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+        <input type="email" placeholder="email" required>
+      </div>
+      <div class="input-wrapper">
+        <span class="icon"><i class="fa-solid fa-user"></i></span>
+        <input type="text" placeholder="name" required>
+      </div>
+      <div class="button-row">
+       <button type="button" class="btn btn-signin" onclick="window.location.href='register.html'">Sign In</button>
+        <button type="button" class="btn btn-signup">Sign Up</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

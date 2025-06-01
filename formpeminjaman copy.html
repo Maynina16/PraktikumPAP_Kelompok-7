@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Form Peminjaman</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .main-bg {
+      min-height: 100vh;
+      background: #F7F6E6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0;
+    }
+    .header-bar {
+      width: 80vw;
+      max-width: 1100px;
+      margin: 48px auto 0 auto;
+      background: #821D30;
+      color: #fff;
+      border-radius: 40px;
+      padding: 22px 0 18px 0;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    .form-card {
+      margin: 36px auto 0 auto;
+      background: #FDF7F7;
+      border-radius: 36px;
+      box-shadow: 0 8px 32px rgba(130,29,48,0.09);
+      padding: 50px 60px 40px 60px;
+      display: flex;
+      flex-direction: row;
+      gap: 44px;
+      max-width: 900px;
+      align-items: center;
+    }
+    .alat-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 18px;
+    }
+    .alat-info img {
+      width: 220px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 10px;
+      background: #eee;
+      box-shadow: 0 2px 8px rgba(130,29,48,0.08);
+    }
+    .alat-info .nama-alat {
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #1D434E;
+      margin-bottom: 2px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .alat-info .status, .alat-info .stok {
+      font-size: 1em;
+      color: #1D434E;
+      margin-bottom: 2px;
+      font-weight: 500;
+    }
+    .form-fields {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 26px;
+    }
+    .input-group {
+      display: flex;
+      align-items: center;
+      background: #1D434E;
+      border-radius: 22px;
+      padding: 0 22px;
+      height: 54px;
+      gap: 14px;
+      color: #EFEFDA;
+    }
+    .input-group i {
+      font-size: 1.2em;
+      min-width: 24px;
+      color: #EFEFDA;
+    }
+    .input-group input {
+      border: none;
+      background: transparent;
+      outline: none;
+      color: #EFEFDA;
+      font-size: 1em;
+      flex: 1;
+      padding: 12px 0;
+      font-family: inherit;
+      letter-spacing: 0.5px;
+    }
+    .input-group input::placeholder {
+      color: #EFEFDA;
+      opacity: 0.85;
+    }
+    .btn-pinjam {
+      background: #821D30;
+      color: #fff;
+      border: none;
+      border-radius: 14px;
+      padding: 10px 38px;
+      font-size: 1.1em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+      margin-top: 20px;
+      align-self: flex-end;
+    }
+    .btn-pinjam:hover {
+      background: #1D434E;
+      transform: scale(1.04);
+    }
+    @media (max-width: 900px) {
+      .header-bar {
+        width: 97vw;
+        font-size: 1.3em;
+        padding: 16px 0 14px 0;
+      }
+      .form-card {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 28px 10px 20px 10px;
+        gap: 26px;
+        width: 97vw;
+        max-width: 97vw;
+      }
+      .alat-info img {
+        width: 100%;
+        max-width: 240px;
+        height: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="main-bg">
+    <div class="header-bar">
+      FORM PEMINJAMAN
+    </div>
+    <form class="form-card" autocomplete="off" onsubmit="event.preventDefault(); alert('Pinjam berhasil!');">
+      <!-- Kiri: Info alat -->
+      <div class="alat-info">
+        <img id="alat-img" src="" alt="Gambar Alat">
+        <div class="nama-alat" id="alat-nama"></div>
+        <div class="status" id="alat-status"></div>
+        <div class="stok" id="alat-stok"></div>
+      </div>
+      <!-- Kanan: Form -->
+      <div class="form-fields">
+        <div class="input-group">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" name="name" placeholder="NAME" required>
+        </div>
+        <div class="input-group">
+          <i class="fa-solid fa-calendar-days"></i>
+          <input type="date" name="date_peminjaman" placeholder="DATE PEMINJAMAN" required>
+        </div>
+        <div class="input-group">
+          <i class="fa-solid fa-calendar-days"></i>
+          <input type="date" name="date_pengembalian" placeholder="DATE PENGEMBALIAN" required>
+        </div>
+        <button type="button" class="btn-pinjam" onclick="window.location.href='finalform.html'">PINJAM</button>
+      </div>
+    </form>
+  </div>
+  <script>
+   
+   
+    const alatData = {
+      'uap-oksigen': {
+        nama: 'UAP OKSIGEN',
+        img: 'asset/img/uap oksigen.jpg',
+        status: 'TERSEDIA',
+        stok: 1000
+      },
+      'digital-sphygmomanometer': {
+        nama: 'DIGITAL SPHYGMOMANOMETER',
+        img: 'asset/img/DIGITAL SPHYGMOMANOMETER.jpg',
+        status: 'TERSEDIA',
+        stok: 500
+      },
+      'amubag': {
+        nama: 'AMUBAG',
+        img: 'asset/img/ambubag alat kesehatan.jpg',
+        status: 'TERSEDIA',
+        stok: 300
+      },
+      'termometer': {
+        nama: 'TERMOMETER',
+        img: 'asset/img/termometer.jpg',
+        status: 'TERSEDIA',
+        stok: 800
+      },
+      'kursi-roda': {
+        nama: 'KURSI RODA',
+        img: 'asset/img/kursi roda.jpg',
+        status: 'TERSEDIA',
+        stok: 150
+      },
+      'glukometer': {
+        nama: 'GLUKOMETER',
+        img: 'asset/img/glukometer.jpg',
+        status: 'TERSEDIA',
+        stok: 400
+      }
+    };
+
+    
+    
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+   
+    
+    function initForm() {
+      const alatKey = getQueryParam('alat');
+      const alat = alatData[alatKey];
+
+      if (!alat) {
+        alert('Alat tidak ditemukan!');
+        window.location.href = 'peminjaman.html';
+        return;
+      }
+
+      document.getElementById('alat-img').src = alat.img;
+      document.getElementById('alat-img').alt = alat.nama;
+      document.getElementById('alat-nama').textContent = alat.nama;
+      document.getElementById('alat-status').textContent = `STATUS : ${alat.status}`;
+      document.getElementById('alat-stok').textContent = `STOCK: ${alat.stok}`;
+    }
+
+    window.onload = initForm;
+  </script>
+</body>
+</html>

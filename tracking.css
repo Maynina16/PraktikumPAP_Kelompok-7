@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.logo {
+  width: 60px;  
+  margin: 20px auto;
+  display: block;
+}
+
+.wrapper {
+  display: flex;
+  height: 10vh;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.main-logo {
+  height: 200px;
+}
+
+.brand-text h1 {
+  margin: 0;
+  font-size: 18px;
+  color: #8b1c2b;
+}
+
+.brand-text p {
+  margin: 0;
+  font-size: 11px;
+  color: #14343e;
+  letter-spacing: 0.5px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-small {
+  height: 30px;
+  cursor: pointer;
+}
+
+.sidebar {
+  margin-top: 5%;
+  width: 200px;
+  background: #871c2a;
+  color: #fff;
+  height: 100vh;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: block;
+  width: 130px;
+  margin: 0 auto 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 15px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+  color: #f7f2e8;
+}
+
+.sidebar ul li.active,
+.sidebar ul li:hover {
+  background: #f1f0dc;
+  color: #14343e;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.main-content {
+  flex-grow: 1;
+  background: #f6f6f6;
+  padding: 80px;
+}
+
+h1 {
+  display: inline-block;
+  background: #8b1c2b;  
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 30px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.form-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.form-container label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="date"],
+.form-container textarea,
+.form-container select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.form-container textarea {
+  resize: vertical;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 15px;
+}
+
+button, .btn-ajukan, .btn-setuju, .btn-tolak, .btn-konfirmasi {
+  background: #8b1c2b;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.tracking-steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.step-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step {
+  width: 30px;
+  height: 30px;
+  background: #ccc;
+  border-radius: 50%;
+  line-height: 30px;
+  color: #000;
+}
+
+.step.active {
+  background: #8b1c2b;
+  color: #fff;
+}
+
+.step-container span {
+  margin-top: 5px;
+  font-size: 12px;
+}

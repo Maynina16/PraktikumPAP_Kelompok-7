@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Alat Diagnostik</title>
+    <style>
+        .FITUR-filter-alat {
+  background-color: #efefda;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.FITUR-filter-alat .div {
+  background-color: var(--colors-blue-dianne-800);
+  width: 1280px;
+  height: 832px;
+  position: relative;
+}
+
+.FITUR-filter-alat .overlap-group {
+  position: absolute;
+  width: 373px;
+  height: 832px;
+  top: 0;
+  left: 0;
+}
+
+.FITUR-filter-alat .rectangle {
+  position: absolute;
+  width: 346px;
+  height: 729px;
+  top: 103px;
+  left: 0;
+}
+
+.FITUR-filter-alat .logo-website {
+  position: absolute;
+  width: 313px;
+  height: 211px;
+  top: 0;
+  left: 16px;
+  object-fit: cover;
+}
+
+.FITUR-filter-alat .img {
+  position: absolute;
+  width: 340px;
+  height: 70px;
+  top: 225px;
+  left: 33px;
+}
+
+.FITUR-filter-alat .text-wrapper {
+  position: absolute;
+  width: 219px;
+  top: 247px;
+  left: 63px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #efefda;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-filter-alat .text-wrapper-2 {
+  position: absolute;
+  width: 219px;
+  top: 155px;
+  left: 63px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #efefda;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-filter-alat .text-wrapper-3 {
+  position: absolute;
+  width: 219px;
+  top: 349px;
+  left: 63px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #efefda;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-filter-alat .ULASAN-RATING {
+  position: absolute;
+  width: 219px;
+  top: 563px;
+  left: 63px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #efefda;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-filter-alat .text-wrapper-4 {
+  position: absolute;
+  width: 283px;
+  top: 499px;
+  left: 46px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #efefda;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+}
+
+.FITUR-filter-alat .text-wrapper-5 {
+  position: absolute;
+  top: 427px;
+  left: 117px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.FITUR-filter-alat .group {
+  position: absolute;
+  width: 729px;
+  height: 399px;
+  top: 103px;
+  left: 393px;
+}
+
+.FITUR-filter-alat .screenshot {
+  position: absolute;
+  width: 52px;
+  height: 51px;
+  top: -50px;
+  left: 850px;
+  object-fit: cover;
+}
+
+.FITUR-filter-alat .tune {
+  position: absolute;
+  width: 42px;
+  height: 44px;
+  top: -50px;
+  left: 800px;
+}
+.group {
+        position: absolute;
+        left: 33px;
+        top: 103px;
+        right: 5000px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: flex-start;
+        left: 400px;
+      }
+
+      .card {
+        width: 180px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 10px;
+      }
+
+      .card img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+
+      .card h3 {
+        font-size: 14px;
+        margin: 10px 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+      .card button {
+        background-color: #800020;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .card button:hover {
+        background-color: #a02c40;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="FITUR-filter-alat">
+      <div class="div">
+        <div class="overlap">
+          <img class="rectangle" src="Assets/Rectangle 10.png" />
+          <img class="logo-website" src="Assets/logo website 3.png" />
+          <div class="rectangle-2"></div>
+          <div class="text-wrapper" onclick="window.location.href='formpeminjaman.html'">PEMINJAMAN</div>
+        <div class="text-wrapper-2" onclick="window.location.href='Home.html'">HOME</div>
+        <div class="text-wrapper-3" onclick="window.location.href='tracking_peminjaman.html'">TRACKING</div>
+        <div class="ULASAN-RATING" onclick="window.location.href='Ulasan.html'">ULASAN & RATING</div>
+        <div class="text-wrapper-4" onclick="window.location.href='RiwayatPeminjaman.html'">RIWAYAT PEMINJAMAN</div>
+        <div class="text-wrapper-5" onclick="window.location.href='index.html'">BOOKMARK</div>
+        </div>
+           <div class="group">
+            <div class="card-container">
+                <div class="card">
+                    <img src="Assets/Kursi Elektrik.png" alt="KRE">
+                    <h3>KURSI RODA ELEKTRIK</h3>
+                    <button>PINJAM</button>
+                </div>
+                <div class="card">
+                    <img src="Assets/Kursi Tekanan Udara.png" alt="KTE">
+                    <h3>KASUR TEKANAN UDARA</h3>
+                    <button>PINJAM</button>
+                </div>
+                <div class="card">
+                    <img src="Assets/EKG DIGITAL.png" alt="EKG">
+                    <h3>EKG DIGITAL</h3>
+                    <button>PINJAM</button>
+                </div>
+                <div class="card">
+                    <img src="Assets/Infusion Pump.png" alt="INFUSION PUMP">
+                    <h3>INFUSION PUMP</h3>
+                    <button>PINJAM</button>
+                </div>
+        <img class="screenshot" src="Assets/Screenshot 2025-05-31 193752.png" />
+        <img class="tune" src="Assets/Tune.png" />
+      </div>
+    </div>
+  </body>
+</html>
